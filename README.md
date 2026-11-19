@@ -1,18 +1,18 @@
 # Wordle (Unity)
 
-Гра в стилі Wordle на Unity: вгадайте англійське слово з 5 літер за 6 спроб. Після кожної спроби плитки підсвічуються: зелена — літера на своєму місці, жовта — є в слові, але в іншому місці, сіра — немає в слові.
+A Wordle-style game made in Unity: guess a 5-letter English word in 6 tries. After each guess the tiles light up — green means the letter is in the right spot, yellow means it's in the word but elsewhere, gray means it's not in the word.
 
-## Що додано поверх базового туторіалу
+## Added on top of the base tutorial
 
-- **Підказка** — кнопка-лампочка відкриває випадкову ще не вгадану літеру
-- **Try Again** — переграти те саме слово з нуля
-- **Звуки** — кліки кнопок, перемога, програш
-- Власне оформлення, шрифти Clear Sans, фон
+- **Hint** — the light-bulb button reveals a random letter that hasn't been guessed yet
+- **Try Again** — replay the same word from scratch
+- **Sound effects** — button clicks, win and lose sounds
+- Custom styling, Clear Sans fonts and background
 
-## Запуск
+## Running
 
-Відкрийте папку в **Unity 2022.3 LTS** (2022.3.25f1) через Unity Hub, сцена — `Assets/Scenes`.
+Open the folder in **Unity 2022.3 LTS** (2022.3.25f1) via Unity Hub; the scene is in `Assets/Scenes`.
 
-## Подяка
+## Credits
 
-Основа гри — відкритий туторіал [Zigurous: unity-wordle-tutorial](https://github.com/zigurous/unity-wordle-tutorial) ([відео](https://youtu.be/Tbcgqz5lM38)). Оригінальна гра Wordle — Josh Wardle / The New York Times; цей проєкт навчальний і некомерційний.
+Based on the open tutorial [Zigurous: unity-wordle-tutorial](https://github.com/zigurous/unity-wordle-tutorial) ([video](https://youtu.be/Tbcgqz5lM38)). The original Wordle game is by Josh Wardle / The New York Times; this is a non-commercial learning project.
